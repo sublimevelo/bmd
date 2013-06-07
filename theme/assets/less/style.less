@@ -7,6 +7,10 @@
  *
  */
 
+/* 
+ * main blue: #70CFC2
+ * main blue tint: #B8E7DD
+ */
 
 // Bootstrap v2.3.2
 @import "bootstrap.less";
@@ -24,26 +28,28 @@
 
 // Colors
 
-@color-1: #4BAAD3;
+@color-1: #70CFC2;
 
-@color-2: #3A9AC4;
+@color-2: #B8E7DD;
 
 @color-3: #F6FCFF;
 
 @color-4: #fff;
 
-@color-5: #010a0c;
+@color-5: #333;
 
-@color-6: #3083A7;
+@color-6: #F1607C;
 
 @color-7: #000;
+
+@color-8: #F48F9C;
  
 // UI Colors
 
 @link-color-dark: @color-6;
 
 
-@navbar-color:  rgba(0,0,0, 0.8); // Navigation bar color.
+@navbar-color:  rgba(0,0,0, 0.7); // Navigation bar color.
 
 @navbar-responsive: #181818;
 
@@ -180,3 +186,16 @@ html {
 
 
 
+h1.logo {
+  background: url(../img/BMDLogoWEB.png) no-repeat left top;
+  width: 184px;
+  height: 112px;
+  text-indent: -9999px;
+  margin-top: 10px;
+}
+.navbar {
+  .nav {
+    margin-top: 25px;
+  }
+  height: 65px;
+}

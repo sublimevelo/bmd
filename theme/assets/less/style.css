@@ -6,6 +6,10 @@
  *  prettystrap.com
  *
  */
+/* 
+ * main blue: #70CFC2
+ * main blue tint: #B8E7DD
+ */
 /*!
  * Bootstrap v2.3.1
  *
@@ -4167,7 +4171,7 @@ dd {
 hr {
   margin: 24px 0;
   border: 0;
-  border-top: 1px solid #b8dbeb;
+  border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
 abbr[title],
@@ -4264,17 +4268,17 @@ address {
   cursor: pointer;
   color: #333333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  background-color: #2b7797;
-  background-image: -moz-linear-gradient(top, #3083a7, #25647f);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3083a7), to(#25647f));
-  background-image: -webkit-linear-gradient(top, #3083a7, #25647f);
-  background-image: -o-linear-gradient(top, #3083a7, #25647f);
-  background-image: linear-gradient(to bottom, #3083a7, #25647f);
+  background-color: #ef4d6d;
+  background-image: -moz-linear-gradient(top, #f1607c, #ed3155);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1607c), to(#ed3155));
+  background-image: -webkit-linear-gradient(top, #f1607c, #ed3155);
+  background-image: -o-linear-gradient(top, #f1607c, #ed3155);
+  background-image: linear-gradient(to bottom, #f1607c, #ed3155);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3083a7', endColorstr='#ff25647f', GradientType=0);
-  border-color: #25647f #25647f #143544;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff1607c', endColorstr='#ffed3155', GradientType=0);
+  border-color: #ed3155 #ed3155 #c11133;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #25647f;
+  *background-color: #ed3155;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -4296,12 +4300,12 @@ address {
 .btn.disabled,
 .btn[disabled] {
   color: #333333;
-  background-color: #25647f;
-  *background-color: #1f546c;
+  background-color: #ed3155;
+  *background-color: #eb1a42;
 }
 .btn:active,
 .btn.active {
-  background-color: #194558 \9;
+  background-color: #d81339 \9;
 }
 .btn:hover,
 .btn:focus,
@@ -4310,12 +4314,12 @@ address {
 .btn.disabled,
 .btn[disabled] {
   color: #333333;
-  background-color: #25647f;
-  *background-color: #1f546c;
+  background-color: #ed3155;
+  *background-color: #eb1a42;
 }
 .btn:active,
 .btn.active {
-  background-color: #194558 \9;
+  background-color: #d81339 \9;
 }
 .btn:hover,
 .btn:focus,
@@ -4324,12 +4328,12 @@ address {
 .btn.disabled,
 .btn[disabled] {
   color: #333333;
-  background-color: #25647f;
-  *background-color: #1f546c;
+  background-color: #ed3155;
+  *background-color: #eb1a42;
 }
 .btn:active,
 .btn.active {
-  background-color: #194558 \9;
+  background-color: #d81339 \9;
 }
 .btn:first-child {
   *margin-left: 0;
@@ -4979,7 +4983,7 @@ input[type="submit"].btn.btn-mini {
   box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
 }
 .btn-group.open .btn.dropdown-toggle {
-  background-color: #25647f;
+  background-color: #ed3155;
 }
 .btn-group.open .btn-primary.dropdown-toggle {
   background-color: #ffffff;
@@ -5464,14 +5468,14 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #93cce5;
-  background-image: -moz-linear-gradient(top, #4baad3, #ffffff);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4baad3), to(#ffffff));
-  background-image: -webkit-linear-gradient(top, #4baad3, #ffffff);
-  background-image: -o-linear-gradient(top, #4baad3, #ffffff);
-  background-image: linear-gradient(to bottom, #4baad3, #ffffff);
+  background-color: #a9e2da;
+  background-image: -moz-linear-gradient(top, #70cfc2, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70cfc2), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #70cfc2, #ffffff);
+  background-image: -o-linear-gradient(top, #70cfc2, #ffffff);
+  background-image: linear-gradient(to bottom, #70cfc2, #ffffff);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4baad3', endColorstr='#ffffffff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff70cfc2', endColorstr='#ffffffff', GradientType=0);
   border: 1px solid #e0e0e0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -5523,7 +5527,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 20px;
   font-weight: 200;
   color: #ffffff;
-  text-shadow: 0 1px 0 #4baad3;
+  text-shadow: 0 1px 0 #70cfc2;
 }
 .navbar .brand:hover,
 .navbar .brand:focus {
@@ -5545,7 +5549,7 @@ input[type="submit"].btn.btn-mini {
   height: 40px;
   margin: 0 9px;
   border-left: 1px solid #ffffff;
-  border-right: 1px solid #4baad3;
+  border-right: 1px solid #70cfc2;
 }
 .navbar .btn,
 .navbar .btn-group {
@@ -5705,14 +5709,14 @@ input[type="submit"].btn.btn-mini {
   padding: 8px 15px 8px;
   color: #ffffff;
   text-decoration: none;
-  text-shadow: 0 1px 0 #4baad3;
+  text-shadow: 0 1px 0 #70cfc2;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 8px;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: #4baad3;
+  background-color: #70cfc2;
   color: #000000;
   text-decoration: none;
 }
@@ -5721,7 +5725,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:focus {
   color: #000000;
   text-decoration: none;
-  background-color: #4baad3;
+  background-color: #70cfc2;
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -5734,14 +5738,14 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #82c1dc;
-  background-image: -moz-linear-gradient(top, #37a0ce, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#37a0ce), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #37a0ce, #f2f2f2);
-  background-image: -o-linear-gradient(top, #37a0ce, #f2f2f2);
-  background-image: linear-gradient(to bottom, #37a0ce, #f2f2f2);
+  background-color: #99d9d0;
+  background-image: -moz-linear-gradient(top, #5dc9ba, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5dc9ba), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #5dc9ba, #f2f2f2);
+  background-image: -o-linear-gradient(top, #5dc9ba, #f2f2f2);
+  background-image: linear-gradient(to bottom, #5dc9ba, #f2f2f2);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff37a0ce', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5dc9ba', endColorstr='#fff2f2f2', GradientType=0);
   border-color: #f2f2f2 #f2f2f2 #cccccc;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #f2f2f2;
@@ -5851,7 +5855,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #4baad3;
+  background-color: #70cfc2;
   color: #000000;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
@@ -10244,12 +10248,21 @@ ul.icons-ul > li .icon-li {
 /* Colors. Just add appropriate class
  to your new page.*/
 .color-1 {
-  background: #4baad3;
+  background: #70cfc2;
+  background-image: url(../img/sparkles.png);
   color: #ffffff;
 }
 .color-2 {
-  background: #3a9ac4;
-  color: #ffffff;
+  background: #b8e7dd;
+  color: #333333;
+}
+.color-2 h1,
+.color-2 h2,
+.color-2 h3,
+.color-2 h4,
+.color-2 h5,
+.color-2 h6 {
+  color: #333333;
 }
 .color-3 {
   background: #f6fcff;
@@ -10263,7 +10276,7 @@ ul.icons-ul > li .icon-li {
   color: #000000;
 }
 .color-3 a {
-  color: #3a9ac4;
+  color: #b8e7dd;
 }
 .color-3 .btn {
   color: #ffffff;
@@ -10281,13 +10294,13 @@ ul.icons-ul > li .icon-li {
   color: #000000;
 }
 .color-4 a {
-  color: #3083a7;
+  color: #333333;
 }
 .color-4 .btn {
   color: #ffffff;
 }
 .color-5 {
-  background: #010a0c;
+  background: #333333;
   color: #ffffff;
 }
 /* Layout */
@@ -10353,6 +10366,9 @@ footer {
 .contact input {
   width: 100%;
 }
+.contact-info h4 {
+  margin: 0;
+}
 /* Newsletter */
 .newsletter h4 {
   font-size: 24px;
@@ -10372,7 +10388,7 @@ footer {
 .navbar {
   color: #fff;
   background: #000000;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 .navbar .nav {
   font-size: 15px;
@@ -10392,10 +10408,10 @@ footer {
 }
 /* Menu colors */
 .active .brand-2 {
-  background-color: #3a9ac4 !important;
+  background-color: #b8e7dd !important;
 }
 .brand-2:hover {
-  background-color: #3a9ac4 !important;
+  background-color: #b8e7dd !important;
 }
 .active .brand-3 {
   background-color: #f6fcff !important;
@@ -10423,11 +10439,11 @@ a:hover {
 textarea,
 input {
   text-indent: 10px;
-  border: 1px solid #3a9ac4;
+  border: 1px solid #b8e7dd;
   font-size: 16px;
   margin: 5px 0px 5px 0px;
   min-height: 40px;
-  outline-color: #4baad3;
+  outline-color: #70cfc2;
   padding: 5px;
 }
 /* Horizontal Line */
@@ -10453,7 +10469,7 @@ ul {
   text-align: center;
 }
 .clients li {
-  background: #3a9ac4;
+  background: #b8e7dd;
   width: 210px;
   padding: 15px!important;
   margin-bottom: 10px;
@@ -10464,7 +10480,7 @@ ul {
 }
 .clients li:hover {
   cursor: pointer;
-  background: #235c75;
+  background: #6ccdb8;
 }
 /* Feature List */
 .features {
@@ -10479,7 +10495,7 @@ ul {
   margin: 0 10px;
 }
 .features li i {
-  color: #3a9ac4;
+  color: #f1607c;
   font-size: 32px;
   padding-top: 30px;
 }
@@ -10497,6 +10513,7 @@ ul {
   width: 50px;
   font-size: 40px;
   margin-right: 20px;
+  color: #ffffff;
 }
 .list-wide li {
   padding: 5px 0;
@@ -10507,7 +10524,7 @@ ul {
   margin: 10px 0;
 }
 .accordion-heading {
-  background: #4baad3;
+  background: #70cfc2;
 }
 .accordion-heading a {
   color: #ffffff;
@@ -10517,10 +10534,10 @@ ul {
   font-size: 18px;
 }
 .accordion-heading:hover {
-  background: #3a9ac4;
+  background: #b8e7dd;
 }
 .accordion-heading.active {
-  background: #3a9ac4;
+  background: #b8e7dd;
 }
 .accordion-inner {
   padding: 9px 15px;
@@ -10531,7 +10548,7 @@ ul {
 .nav-tabs {
   border-bottom: 0px;
   border: 0px;
-  background: #4baad3;
+  background: #70cfc2;
   margin: 0;
 }
 .nav-tabs > li > a {
@@ -10574,10 +10591,11 @@ ul {
   -moz-transition: background 0.6s;
   -o-transition: background 0.6s;
   transition: background 0.6s;
+  background: #f1607c;
 }
 .btn:hover,
 .btn-navbar:hover {
-  background: #25647f;
+  background: #ed3155;
   color: #fff;
 }
 .btn-centered {
@@ -10586,7 +10604,7 @@ ul {
   display: block;
 }
 .btn-navbar:hover {
-  background: #3083a7 !important;
+  background: #f1607c !important;
 }
 /* Social Buttons */
 .social i {
@@ -10600,7 +10618,7 @@ ul {
   color: #F1F1F1;
 }
 .social i:hover {
-  color: #3a9ac4;
+  color: #b8e7dd;
   text-decoration: none;
 }
 /* Navigation button, hidden on desktop */
@@ -10653,9 +10671,9 @@ ul {
 .btn-map {
   margin: -35px 0 0 -35px;
   top: 50%;
-  left: 50%;
+  left: 53%;
   opacity: 0.8;
-  color: #000000;
+  color: #333333;
   width: 225px;
   height: 70px;
   font-size: 15px;
@@ -10673,7 +10691,7 @@ ul {
   transition: color 0.6s;
 }
 .btn-map div {
-  background: #4baad3;
+  background: #70cfc2;
   float: right;
   padding: 5px;
   -webkit-transition: background 0.6s;
@@ -10682,14 +10700,14 @@ ul {
   transition: background 0.6s;
 }
 .btn-map i:hover {
-  color: #3a9ac4;
+  color: #b8e7dd;
 }
 .btn-map:hover {
   opacity: 1;
   color: #000000;
 }
 .btn-map div:hover {
-  background: #3a9ac4;
+  background: #b8e7dd;
 }
 /* Typography */
 /* -------------------------------------------------- */
@@ -10812,7 +10830,7 @@ strong {
   }
   .nav-collapse,
   .nav-collapse.collapse {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     height: 0;
     overflow: hidden;
   }
@@ -11367,5 +11385,18 @@ html {
   display: block;
 }
 .border {
-  border: 1px solid #3a9ac4;
+  border: 1px solid #b8e7dd;
+}
+h1.logo {
+  background: url(../img/BMDLogoWEB.png) no-repeat left top;
+  width: 184px;
+  height: 112px;
+  text-indent: -9999px;
+  margin-top: 10px;
+}
+.navbar {
+  height: 65px;
+}
+.navbar .nav {
+  margin-top: 25px;
 }

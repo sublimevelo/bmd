@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>The Story - responsive landing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Twitter bootstrap theme">
+    <meta name="author" content="prettystrap">
+
+    <!-- Le styles -->
+      <!-- <link href="assets/less/style.min.css" rel="stylesheet">  -->
+      <link href="assets/less/style.css" rel="stylesheet"> 
+
+    <!--Import Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <!-- Le fav  -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+    if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript src='assets/js/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>
+
+
+    <!--Has to be in head, to lazy load images.
+    Minimize in production. -->
+
+    <script src="assets/js/lazyload.js"></script>
+    <script src="assets/js/jRespond.js"></script>
+    <script src="assets/js/spin.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Main js fail. -->
+    <script src="assets/js/main.js"></script>
+
+  </head>
+  <body id="top" data-spy="scroll" data-target=".navbar">
+
+       <!-- Brand and Navigation -->
+       <header class="navbar navbar-fixed-top">
+        <div class="inner-page">
+          <h1 class="logo">The Story</h1>
+          <a class="btn-nav" data-toggle="collapse" data-target=".nav-collapse">
+            <i class="icon-reorder"></i>
+          </a>
+          <div class="nav-collapse collapse">
+            <ul class="nav navigation" id="menu">
+              <li><a title="Home page" class="scroll brand-1" href="index.html#home">Home</a></li>
+              <li><a title="Check out our awesome specials" href="#specials" class=" scroll brand-4">Specials</a></li>
+              <li class="active"><a title="External page sample" href="menu.html" class=" brand-4">Our Menu</a></li>
+              <!-- <li><a title="Themes assets" href="#assets" class="scroll brand-3">Assets</a></li> -->
+              <li><a title="Who we are" href="#about" class="scroll fadeto brand-4"> About us</a></li>
+              <li><a title="Get in touch!" href="#contact" class="scroll brand-2">Contact</a></li>
+            </ul>
+          </div> 
+        </div> 
+      </header>
+
+      <div id="sample-page" class="page color-4">
+        <div class="inner-page">
+          <h2 class="page-headline">Our Menu</h2>
+          <div class="row-fluid color-2">
+            <div class="span12">
+              <div class="row-fluid">
+                <h3><i class="icon-star-empty"></i> Specials</h3>
+                <ul class="thumbnails">
+                  <li class="span4">
+                    <div class="thumbnail">
+                      <img src="http://lorempixel.com/270/200/food/">
+                      <h4><i class="icon-star-empty"></i> Cupcake</h4>
+                      <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident.</p>
+                      </div>
+                      <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                      <p><strong>$2.99</strong> / ea.</p>
+                    </div>
+                    
+                  </li>
+                  <li class="span4">
+                    <div class="thumbnail">
+                      <img src="http://lorempixel.com/270/200/food/">
+                      <h4><i class="icon-star-empty"></i> Chocolate Cake</h4>
+                      <div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                          proident.</p>
+                        </div>
+                        <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                        <p><strong>$2.99</strong> / ea.</p>
+                      </div>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-fluid color-4">
+          <div class="span12">
+            <div class="row-fluid">
+              <h3>Desserts</h3>
+              <ul class="thumbnails">
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="http://lorempixel.com/270/200/food/">
+                    <h4>Cupcake</h4>
+                    <div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                    <p><strong>$2.99</strong> / ea.</p>
+                  </div>
+                  
+                </li>
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="http://lorempixel.com/270/200/food/">
+                    <h4>Chocolate Cake</h4>
+                    <div>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident.</p>
+                      </div>
+                      <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                      <p><strong>$2.99</strong> / ea.</p>
+                    </div>
+                  
+                </li>
+
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="http://lorempixel.com/270/200/food/">
+                    <h4>Chocolate Cake</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+                      <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                      <p><strong>$2.99</strong> / ea.</p>
+                    </div>
+                 
+                </li>
+
+                <li class="span3">
+                  <div class="thumbnail">
+                    <img src="http://lorempixel.com/270/200/food/">
+                    <h4>Chocolate Cake</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                      </div>
+                      <a data-target="#item1" data-toggle="modal" class="btn btn-mini" role="button" data-remote="/menu/partials/1/" href="#">more</a>
+                      <p><strong>$2.99</strong> / ea.</p>
+                    </div>
+                 
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- The footer, social media icons, and copyright -->        
+      <footer class="page color-5">
+        <div class="inner-page row-fluid">
+          <div class="span6 social">
+            <a href="#contact"><i class="icon-twitter"></i></a>
+            <a href="#contact"><i class="icon-github-sign"></i></a>    
+            <a href="#contact"><i class="icon-facebook-sign"></i></a>
+            <a href="#contact"><i class="icon-google-plus-sign"></i></a>
+          </div>
+          <div class="span6 text-right copyright">
+            &copy; 2013 <a  href="http://prettystrap.com"  title="twitter bootstrap themes">prettystrap.com</a> | all rights reserved |  <a href="#top"   title="Got to top" class="scroll">To top <i class="icon-caret-up"></i></a>
+          </div>
+        </div>
+      </footer>
+  </body>
+
+</html>
