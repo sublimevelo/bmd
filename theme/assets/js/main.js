@@ -23,6 +23,12 @@ $("img.lazy").lazyload({
       }
 }); 
 
+
+// Carousel
+
+$('.carousel').carousel();
+
+
 // Lightbox
 
 $('.lightbox').magnificPopup({
@@ -116,13 +122,13 @@ var jRes = jRespond([
     }
 ]);
 
-jRes.addFunc({
-    breakpoint: 'mobile',
-    enter: function() {
-    $('h1').fadeOut('slow');          
-    },
-    exit: function() {
-  $('h1').fadeIn('slow');
-    }
-});
+// jRes.addFunc({
+//     breakpoint: 'mobile',
+//     enter: function() {
+//     $('h1').fadeOut('slow');          
+//     },
+//     exit: function() {
+//   $('h1').fadeIn('slow');
+//     }
+// });
 });

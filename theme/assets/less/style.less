@@ -38,18 +38,16 @@
 
 @color-5: #333;
 
-@color-6: #F1607C;
+@color-6: #DB1537;
 
 @color-7: #000;
-
-@color-8: #F48F9C;
  
 // UI Colors
 
 @link-color-dark: @color-6;
 
 
-@navbar-color:  rgba(0,0,0, 0.7); // Navigation bar color.
+@navbar-color:  rgba(0,0,0, 0.85); // Navigation bar color.
 
 @navbar-responsive: #181818;
 
@@ -120,7 +118,9 @@
 @baseFontFamily:        @sansFontFamily;
 @baseLineHeight:        24px;
 
-
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+  text-shadow: @string;
+}
 
 // Importing The Story
 
@@ -184,18 +184,51 @@ html {
   border: 1px solid @border-color;
 }
 
-
+.thumbnails .row {
+  margin-bottom: 30px;
+}
 
 h1.logo {
-  background: url(../img/BMDLogoWEB.png) no-repeat left top;
-  width: 184px;
-  height: 112px;
-  text-indent: -9999px;
-  margin-top: 10px;
+  padding: 0;
+  margin: 0;
+  a {
+    display: block;
+    background: url(../img/BMD-logo-WEB.png) no-repeat left top;
+    width: 340px;
+    height: 65px;
+    text-indent: -9999px;
+    margin: 4px 0 0 10px;
+  }
 }
+
 .navbar {
   .nav {
-    margin-top: 25px;
+    margin-top: 31px;
   }
-  height: 65px;
+  height: 71px;
+}
+
+@media (max-width: 979px) { 
+  h1.logo {
+    width: 280px;
+    height: 41px;
+    background-size: 280px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .navbar {
+    height: auto;
+    // .nav {
+    //   margin-top: 0;
+    // }
+  }
+  .navbar .nav > li > a {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+    margin-top: 68px;
+  }
 }
